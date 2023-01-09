@@ -1,0 +1,28 @@
+name: McugCore
+version: '${project.version}'
+main: com.cleyh.plugin.mcug.Mcug
+api-version: 1.19
+commands:
+  hotel-check-in:
+    description: check in a hotel!
+    usage: /hotel-check-in [hotel's ID] [the room's number(if it has)]
+
+  house-buy:
+    description: buy a house!
+    usage: /house-buy [the ID of land or house]
+
+  hotel-set:
+    description: set a hotel!
+    usage: /hotel-set [the name of the hotel] [the number of rooms]
+
+  house-set:
+    description: set a house or land!
+    usage: /house-set [the name of the house]
+
+  hotel-remove:
+    description: remove a hotel!
+    usage: /hotel-remove [ID] [all|room's number]
+
+  house-remove:
+    description: remove a house or land!
+    usage: /house-remove [ID]

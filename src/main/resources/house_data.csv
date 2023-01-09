@@ -1,0 +1,6 @@
+﻿uid,rid,name,type,owner,isrent,location
+0,0,bighotel,hotel,cleyh,0,
+0,1,bighotel,hotel,cleyh,xiaoming,
+0,2,bighotel,hotel,cleyh,0,
+0,3,bighotel,hotel,cleyh,0,
+1,0,myhouse,house,xiaoming,0,
