@@ -3,26 +3,15 @@ version: '${project.version}'
 main: com.cleyh.plugin.mcug.Mcug
 api-version: 1.19
 commands:
-  hotel-check-in:
-    description: check in a hotel!
-    usage: /hotel-check-in [hotel's ID] [the room's number(if it has)]
+  #house-set-apartment:
+  #  description: set a hotel!
+  #  usage: /house-set apartment [name] [room number]
 
-  house-buy:
-    description: buy a house!
-    usage: /house-buy [the ID of land or house]
+  house-set-villa:
+    description: 登记你的房产（地产）。
+    usage: /house-set villa [name] <price(optional)>
 
-  hotel-set:
-    description: set a hotel!
-    usage: /hotel-set [the name of the hotel] [the number of rooms]
+  house-del:
+    description: 删除你的房产（地产）登记记录。
+    usage: /house-del [ID]
 
-  house-set:
-    description: set a house or land!
-    usage: /house-set [the name of the house]
-
-  hotel-remove:
-    description: remove a hotel!
-    usage: /hotel-remove [ID] [all|room's number]
-
-  house-remove:
-    description: remove a house or land!
-    usage: /house-remove [ID]

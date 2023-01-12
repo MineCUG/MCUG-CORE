@@ -1,0 +1,36 @@
+apartment:
+  ap-0:
+    name: apartment
+    manager: Cleyh
+    location:
+    roomNumber: 3
+    rooms:
+      1:
+        owner: cleyh
+        price: 1000
+        onSelling: false
+      2:
+        owner: cleyh
+        price: 1000
+        onSelling: false
+      3:
+        owner: cleyh
+        price: 1000
+        onSelling: false
+  ap-1:
+    name: test2
+    location:
+    roomNumber: 1
+    rooms:
+      1:
+        owner: xiaomin
+        price: 1000
+        onSelling: false
+
+villa:
+  vi-0:
+    name: test
+    owner: Cleyh
+    onSelling: false
+    price: 100000
+    location:
